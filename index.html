@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>Weather Api</h1>
+            <button id="fetchData">Fetch Data</button>
+        </div>
+        <div id="main-body">
+            <div class="map-location">
+                <div class="lat-long">
+                    <span class="lat"></span>
+                    <span class="long"></span>
+                </div>  
+                <div id="map"></div>          
+            </div>
+            <div class="weather-container">
+                <h1 class="weather-header">Weather Data</h1>
+                <div class="weather-data">
+                    <div id="location"></div>
+                    <div class="lat-long">
+                        <span class="lat"></span>
+                        <span class="long"></span>
+                    </div> 
+                    <div id="timeZone"></div>
+                    <div id="windSpeed"></div>
+                    <div id="pressure"></div>
+                    <div id="humidity"></div>
+                    <div id="windDirection"></div>
+                    <div id="uvIndex"></div>
+                    <div id="feelsLike"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+Footer
